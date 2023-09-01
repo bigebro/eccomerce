@@ -6,6 +6,8 @@ module.exports = {
   extends: [
     "eslint:recommended",
     "plugin:react/recommended",
+    "eslint:recommended",
+    "plugin:prettier/recommended",
   ],
   overrides: [
     {
@@ -31,6 +33,7 @@ module.exports = {
     // "space-before-function-parent": ["error", "always"], // Space before function parentheses
     "space-infix-ops": "error", // Spaces around operators
     "space-before-blocks": "error", // Space before opening block
-    "keyword-spacing": "error", // Space after keywords
+    "keyword-spacing": "error", // Space after keywords,
+    "prettier/prettier": "error", // Enforce Prettier rules
   },
 };

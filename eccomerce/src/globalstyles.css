@@ -6,5 +6,16 @@
     max-width: 1300px;
 }
 
+.invert-24 {
+  filter:invert(24%);
+  }
+
+  .invert-50 {
+    filter:invert(50%);
+  }
+ 
+.invert-0 {
+    filter: invert(0) !important;
+}
 
 
